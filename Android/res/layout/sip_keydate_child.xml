@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/global_background_color" >
+    <ImageView 
+         android:layout_width="fill_parent"
+         android:layout_height="@dimen/sip_keydate_child_img_heigh"
+         /> 
+    <LinearLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+    <TextView 
+        android:id="@+id/txtSipKeyDateDate"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/sip_keydate_child_txt_date_heigh"
+        android:background="@drawable/background_pink"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/sip_keydate_child_txt_date_padding_left"
+        android:textSize="@dimen/sip_keydate_child_txt_date_size"
+        android:textColor="@color/text_headline"
+        
+        />
+    
+   <TextView 
+       android:id="@+id/txtSipKeyDateContent"
+       android:layout_width="fill_parent"
+       android:layout_height="@dimen/sip_keydate_child_txt_content_heigh"
+       android:gravity="center_vertical"
+       android:paddingLeft="@dimen/sip_keydate_child_txt_content_padding_left"
+       android:textSize="@dimen/sip_keydate_child_txt_content_size"
+       android:textColor="@color/black"
+       />
+</LinearLayout>
+</FrameLayout>

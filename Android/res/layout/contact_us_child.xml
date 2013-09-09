@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingLeft="8dp"
+    android:paddingRight="8dp"
+    android:paddingTop="5dp"
+    android:background="#fff" >
+
+    <LinearLayout
+        android:layout_width="200dp"
+        android:layout_height="@dimen/contact_ll_heigh"
+        android:background="#fff"      
+        android:orientation="horizontal" 
+        android:gravity="left"
+        android:layout_marginLeft="@dimen/contact_margin_left"
+        >
+        
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingRight="10dp" >
+
+            <TextView
+                android:id="@+id/txtName"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="name"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="@dimen/contact_txtname_size"
+                 />
+
+            <TextView
+                android:id="@+id/txtPosition"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="position"
+                android:textSize="@dimen/contact_txtposition_size" />
+
+            <TextView
+                android:id="@+id/txtEmail"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"             
+                android:text="position"
+                 android:textColor="@color/black"
+                android:textSize="@dimen/contact_txtemail_size" />
+
+            <TextView
+                android:id="@+id/txtPhone"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="phone"
+                android:textColor="@color/black"
+                android:textSize="@dimen/contact_txtemail_size" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="100dp"
+        android:layout_height="@dimen/contact_ll_heigh"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="5dp"
+        android:background="#fff"
+        android:orientation="horizontal" >
+
+        <ImageView 
+            android:id="@+id/avatar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+</RelativeLayout>

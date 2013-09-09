@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World!</string>
+    <string name="app_name">ALG</string>
+    <string name="homescreen">Home</string>
+    <string name="welcome">Welcome</string>
+    <string name="aboutus">About Us</string>
+    <string name="trainee_about">About</string>
+    <string name="trainee_life">Life</string>
+    <string name="trainee_experience">Experiences</string>
+    <string name="trainee_date">Key Dates</string>
+    <string name="trainee_Twitter">Twitter</string>
+    <string name="trainee_FAQ">FAQ</string>
+    <string name="trainee">Trainees</string>
+    <string name="trainee_name1">Evan Ryan,</string>
+    <string name="trainee_position1">Trainee Solicitor</string>
+    <string name="trainee_video_desc1">Work/life balance and social life</string>
+    <string name="trainee_name2">Laura Kennedy,</string>
+    <string name="trainee_position2">Trainee Solicitor</string>
+    <string name="trainee_video_desc2">My traineeship so far</string>
+    <string name="sip">SIP</string>
+    <string name="intern_name1">Mark Cusack and\nElaine McNamara</string>
+    <string name="intern_position1">Summer Interns &amp; Future Trainees</string>
+    <string name="intern_video_desc1">Pathaway from Intern &amp; Paralegal to trainee</string>
+    <string name="download">Downloads</string>
+    <string name="contactus">Contact Us</string>
+    <string name="text_welcome">"Welcome to the A&amp;L Goodbody\’s Recruitment App.  I would like to tell you a little about our Firm and why our Trainee and Intern Programmes are so important to us. 
+A&amp;L Goodbody is one of Ireland\'s largest and most successful corporate law firms, doing interesting, challenging and innovative work for both Irish and international clients. 
+We act for some of the world\'s most dynamic and innovative companies.  Companies who turn to us time and time again because of the quality of advice and quality of service we provide.\"
+But it\'s not just this.  They see that we can provide dynamic and innovative solutions to their problems and help them to achieve their objectives.  We have always worked hard to look into the future and anticipate what we need to do to be ahead of the market and be best positioned to meet our clients\' needs, whether it be the first Irish law firm to open up in New York in 1979, coming up with the structures and legislative backdrop which kicked off the Funds industry in Ireland or our use of knowledge and technology - we strive to be innovative.
+We also have offices in London and Belfast and our Trainees have the opportunity to work in some of these offices during their training. 
+Why is this important?  Well as the international market again becomes much more important to Ireland and A&amp;L, we need to be able to tap into and deal with the multitude of international clients who interact with Ireland. We also follow our clients out of Ireland as lead advisers, working alongside the best in the city of London, Manhattan island and elsewhere.
+A&amp;L Goodbody is a full service, corporate law firm, advising on the broad range of issues which are relevant to corporate clients.  From M&amp;A to banking, from IP/IT to investment funds, from aircraft to shipping law, EU and competition and insurance to taxation.  We practice in a diverse number of areas and with diverse types of client base, industry sectors, cultures and nationalities.  We can do this because our lawyers come from a variety of backgrounds and nationalities and have a broad range of personalities and qualifications. 
+However, they all have one thing in common.  They are the best at what they do, work hard to meet the exciting challenges that fall their way and are proud to be part of A&amp;L Goodbody and what we represent. 
+Our approach to business is practical, modern and constructive and our clients see it as that.  Our core objectives are to inspire trust through leadership and our profession, deliver results for our clients and assist them in achieving success in their business. 
+This Firm takes a long term view in our Trainee Programme.  We see our Trainees as key members of our team and future leaders of the Firm.  Most of our current Partners joined the Firm as Trainees.  We continue to recruit graduates for our Trainee Programme and to train and develop the brightest and best young lawyers to be ready to meet the challenges we will face and thrive in any environment. 
+We always get feedback that it can be difficult to differentiate between the variety of firms you come across, but it\'s clear to me that if you want to be part of a modern, dynamic, innovative, market leading team where you can bring ideas, contribute to and be a valued part of, then I believe that A&amp;L Goodbody is the place for you. 
+Please also take the time to browse through our website which will provide you with information on all aspects of our Firm.  If you would like further information or would like to discuss any aspect of our Trainee &amp; Intern Programmes, please make sure to contact us. 
+We invite you to apply for our Trainee &amp; Intern Programmes and look forward to working with you in the future.</string>
+    <string name="text_aboutus">        A&amp;L Goodbody is one of Ireland\'s premier corporate law firms. We are widely recognised
+        as providing legal advice and service of the highest quality available in Ireland.\n 
+With over 350 legal staff and a total headcount of approximately 525, we provide unparalleled breadth and depth of expertise across every facet of business law, for the domestic and 
+international corporate sector. We also offer the most extensive range of specialist legal services available in Ireland through our specialist practice areas.</string>
+    <string name="text_trainee_about">Now the real decision making starts.  Real decisions about your career and your future.  If you want to become a solicitor, the very best training will always stand to you and help you progress. Make the right decision.  Decide you want the best out of a legal career and apply for a position as a Trainee Solicitor in A&amp;L Goodbody. A&amp;L Goodbody\’s Trainee Programme is known and admired for many reasons, mainly because of the care and attention we invest in the development of our Trainee Solicitors. We show you how to apply your knowledge to commercial situations in a practical way. But there’s more to a Traineeship than learning about law. You will need to understand how business works and how to interact with clients. You will be encouraged to challenge yourself and to realise all your ambitions.\n
+You won\’t get training like this anywhere else. With 71 Partners and over 350 legal staff, we offer the broadest range of commercial and specialist legal services in Ireland. Excellence, commercial savvy and a practical approach are hallmarks of our service. As a participant on our Trainee Programme you can expect to develop all these attributes, together with all the skills you need to get your career off to the right start. We are confident that our programme offers the best of everything to the right candidates.</string>
+    <string name="txt_download_1">Apply for your Trainee &amp; Intern \n programmes!!</string>
+    <string name="txt_download_2">Enter your email address below to \n receiver a link  to our application \n form.</string>
+    <string name="txt_download_3">Your email address:</string>
+    <string name="ext_download_hid">Enter your email address</string>
+    <string name="quit"> Are your sure want to quit ?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="ok">OK</string>
+    <string name="loading">Loading&#8230;</string>
+    <string name="enable_network">You must enable network</string>
+    <string name="alg">A&amp;L  GOODBODY </string>
+    <string name="back">Back</string>
+    <string name="connect_fail">Please check connect!</string>
+    <string name="title_home">A&amp;L G LawStart</string>
+    <string name="title_inbrief">In Brief</string>
+    <string name="title_culture_values">Culture &amp; Values</string>
+    <string name="title_trainee_programme">Our Trainee Programme</string>
+    <string name="title_trainee_lookfor">What are we looking for</string>
+    <string name="title_trainee_package">The Package</string>
+    <string name="title_keydates">Key Dates</string>
+    <string name="title_intern_exp">Summer Internship Experiences</string>
+    <string name="title_intern_about">Internship</string>
+    <string name="title_faq">FAQs</string>
+    <string name="aboutus_headline">About A&amp;L Goodbody</string>
+    <string name="aboutus_name">Julian Yarr</string>
+    <string name="aboutus_position">Managing Partner</string>
+    <string name="text_inbrief_headline">A&amp;L Goodbody is internationally recognized as one of Ireland\'s leading law firms. Why?</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_in_brief">InBriefActivity</string>
+    <string name="title_activity_culture_values">CultureValuesActivity</string>
+    <string name="title_activity_trainee_programme">TraineeProgrammeActivity</string>
+    <string name="title_activity_trainee_look_for">TraineeLookForActivity</string>
+    <string name="title_activity_trainee_package">TraineePackageActivity</string>
+
+    <!-- about this app -->
+    <string name="title_aboutapp1">About LawStart App</string>
+    <string name="title_aboutapp2">About A&amp;L Goodbody</string>
+
+	<!-- Maps -->
+    <string name="map_normal">Normal</string>
+    <string name="map_satellite">Satellite</string>
+    <string name="map_hybrid">Hybrid</string>
+    
+    <!-- Belfast -->
+    <string name="title_about_belfast">About Our Belfast Traineeship</string>
+    <string name="title_profile_experiences">Profiles/Experiences</string>
+    <string name="title_belfast_requirement">What we are looking for ?</string>
+    <string name="title_belfast_package">The Package</string>
+    <string name="title_belfast_keycontact">Key Contacts</string>
+    <string name="title_activity_map">MapActivity</string>
+    
+    <string name="title_video_experiences1"> Micaela Diver, Corporate /EU, Competition &amp; Procurement Associate</string>
+     <string name="sub_title_video_experiences1"> Developing specialist practice areas in A&amp;L Goodbody Northern Ireland</string>
+    
+    <string name="title_video_experiences2"> Alastair Keith, Corporate Parter</string>
+     <string name="sub_title_video_experiences2"> Working at the highest international standards in Northern Ireland</string>
+</resources>

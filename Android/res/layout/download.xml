@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+  <ScrollView 
+      xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#fff"
+      >
+      <FrameLayout   
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        >
+        <ImageView 
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" 
+             android:background="@color/global_background_color"
+            />
+
+         <LinearLayout
+             android:layout_width="fill_parent"
+             android:layout_height="488dp"
+             android:gravity="center_horizontal"
+             android:orientation="vertical" >
+
+         <TextView 
+             android:layout_width="fill_parent"
+             android:layout_height="wrap_content"
+             android:textColor="@color/black"
+             android:text="@string/txt_download_1"
+             android:textStyle="bold"
+             android:layout_marginTop="20dp"
+             android:gravity="center"
+             android:textSize="18dp"
+             />
+         <TextView 
+             android:layout_width="fill_parent"
+             android:layout_height="wrap_content"
+             android:text="@string/txt_download_2"
+             android:textColor="@color/black"
+             android:gravity="center"
+             android:textSize="18dp"
+             android:typeface="normal"
+             android:paddingTop="5dp"
+             />
+         <TextView 
+             android:layout_width="fill_parent"
+             android:layout_height="wrap_content"
+             android:text="@string/txt_download_3"
+             android:textColor="@color/black"
+             android:gravity="center"
+             android:textSize="17dp"
+             android:typeface="normal"  
+             android:layout_marginTop="5dp"          
+             />
+
+         <LinearLayout
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_weight="1"
+             android:orientation="vertical" >
+         
+         <EditText 
+             android:id="@+id/edtEmailDownload"
+             android:layout_height="wrap_content"
+             android:layout_width="fill_parent"
+             android:hint="@string/ext_download_hid"
+             android:gravity="left"
+             android:layout_marginTop="@dimen/download_edt_top"
+             android:lines="1"
+             android:textColor="@color/black"
+             />
+
+         <Button
+             android:id="@+id/btnSentMail"
+             android:layout_width="@dimen/download_btn_width"
+             android:layout_height="@dimen/download_btn_heigh"
+             android:layout_marginTop="@dimen/download_btn_top"
+             android:background="@drawable/btnsendmail" />
+         
+         </LinearLayout>
+    </LinearLayout>
+    
+    </FrameLayout>
+  </ScrollView>
+    

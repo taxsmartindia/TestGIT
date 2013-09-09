@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#fff"
+    android:fadingEdge="none" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/global_background_color"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/about_img_heigh"
+            android:background="@drawable/belfast_city" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="35dp"
+            android:background="@drawable/background_pink"
+            android:paddingBottom="@dimen/about_h1_paddingbottom"
+            android:paddingLeft="@dimen/about_h1_paddingleft"
+            android:paddingRight="@dimen/about_h1_paddingright"
+            android:paddingTop="@dimen/about_h1_paddingtop"
+            android:text="@string/title_about_belfast"
+            android:textColor="@color/text_headline"
+            android:textSize="@dimen/about_h1"
+            android:textStyle="bold" />
+
+        <WebView
+            android:id="@+id/text_belfast_about"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="@dimen/about_h1_paddingbottom"
+            android:paddingLeft="@dimen/about_txt_paddingleft"
+            android:paddingRight="@dimen/about_txt_paddingright"
+            android:paddingTop="@dimen/about_txt_paddingtop"
+            android:textColor="@color/black"
+            android:textSize="@dimen/about_h2" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="35dp"
+            android:background="@drawable/background_pink"
+            android:paddingBottom="@dimen/about_h1_paddingbottom"
+            android:paddingLeft="@dimen/about_h1_paddingleft"
+            android:paddingRight="@dimen/about_h1_paddingright"
+            android:paddingTop="@dimen/about_h1_paddingtop"
+            android:text="@string/title_profile_experiences"
+            android:textColor="@color/text_headline"
+            android:textSize="@dimen/about_h1"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="@string/title_video_experiences1"
+            android:textColor="#000"
+            android:textSize="@dimen/about_h1"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="@string/sub_title_video_experiences1"
+            android:textColor="#000"
+            android:textSize="@dimen/about_h3"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_aboutus_video1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="6dp"
+            android:background="@drawable/video_beest_about_1"
+            android:paddingLeft="@dimen/about_txt_paddingleft"
+            android:visibility="visible" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="@string/title_video_experiences2"
+            android:textColor="#000"
+            android:textSize="@dimen/about_h1"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="@string/sub_title_video_experiences2"
+            android:textColor="#000"
+            android:textSize="@dimen/about_h3"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_aboutus_video2"
+            android:layout_width="202dp"
+            android:layout_height="113dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="6dp"
+            android:layout_weight="0.33"
+            android:background="@drawable/thumb2"
+            android:paddingLeft="@dimen/about_txt_paddingleft"
+            android:visibility="visible" />
+
+        <WebView
+            android:id="@+id/text_belfast_about_2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="@dimen/about_h1_paddingbottom"
+            android:paddingLeft="@dimen/about_txt_paddingleft"
+            android:paddingRight="@dimen/about_txt_paddingright"
+            android:paddingTop="@dimen/about_txt_paddingtop"
+            android:textColor="@color/black"
+            android:textSize="@dimen/about_h2" />
+    </LinearLayout>
+
+</ScrollView>

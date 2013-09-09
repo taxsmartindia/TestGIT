@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <com.google.android.maps.MapView
+        android:id="@+id/mapview"
+        style="@style/mapView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:apiKey="0Kngikb6PHjMJxjaijLYWOjbJ_cGT_expexgM9A"
+        android:clickable="true"
+        android:enabled="true" />
+    
+  <!--  local key 
+    <com.google.android.maps.MapView
+        android:id="@+id/mapview"
+        style="@style/mapView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:apiKey="0Kngikb6PHjPK4oNgFNd3IR860AQb-pODRMoouw"
+        android:clickable="true"
+        android:enabled="true" /> -->
+    
+    
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#00000000"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btn_normalMap"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".3"
+            android:background="@drawable/button_map"
+            android:text="@string/map_normal"
+            android:textColor="#fff" />
+
+        <Button
+            android:id="@+id/btn_satelliteMap"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".3"
+            android:background="@drawable/button_map"
+            android:text="@string/map_satellite"
+            android:textColor="#fff" />
+
+        <Button
+            android:id="@+id/btn_hybridMap"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".3"
+            android:background="@drawable/button_map"
+            android:text="@string/map_hybrid"
+            android:textColor="#fff" />
+    </LinearLayout>
+
+</RelativeLayout>

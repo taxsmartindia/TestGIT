@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/global_background_color"
+    android:orientation="vertical"
+    android:paddingBottom="20dp" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="35dp"
+        android:background="@drawable/background_pink"
+        android:paddingBottom="@dimen/about_h1_paddingbottom"
+        android:paddingLeft="@dimen/about_h1_paddingleft"
+        android:paddingRight="@dimen/about_h1_paddingright"
+        android:paddingTop="@dimen/about_h1_paddingtop"
+        android:text="@string/trainee_experience"
+        android:textColor="@color/text_headline"
+        android:textSize="@dimen/about_h1"
+        android:textStyle="bold" />
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical" >
+
+            <Button
+                android:id="@+id/btn_trainee_exp_video"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/thumb2"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:paddingLeft="@dimen/about_txt_paddingleft"
+                android:paddingRight="@dimen/trainee_video_paddingright"
+                android:paddingTop="@dimen/trainee_video_paddingtop"
+                android:visibility="visible"
+                android:layout_marginLeft="10dp" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:gravity="right"
+                android:orientation="vertical"              
+                android:layout_weight="1" >
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:paddingTop="@dimen/about_txt_paddingtop"
+                    android:text="@string/trainee_name1"
+                    android:textColor="@color/title_text"
+                    android:textSize="@dimen/about_h1"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"                   
+                    android:text="@string/trainee_position1"
+                    android:textColor="@color/title_text"
+                    android:textSize="@dimen/about_h2"
+                    android:textStyle="bold" 
+                    android:layout_marginLeft="10dp"/>
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:paddingTop="@dimen/about_txt_paddingtop"
+                    android:text="@string/trainee_video_desc1"
+                    android:textColor="@color/title_text"
+                    android:textSize="@dimen/about_app_txt_size" />
+            </LinearLayout>
+        </TableRow>
+    </TableLayout>
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="5dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/background_keydate_txt" />
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical" >
+
+            <Button
+                android:id="@+id/btn_trainee_exp_video2"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/thumb3"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"               
+                android:paddingTop="@dimen/trainee_video_paddingtop"
+                android:visibility="visible"
+                android:layout_marginLeft="10dp" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:gravity="right"
+                android:orientation="vertical"              
+                android:layout_weight="1" >
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:paddingTop="@dimen/about_txt_paddingtop"
+                    android:text="@string/trainee_name2"
+                    android:textColor="@color/title_text"
+                    android:textSize="@dimen/about_h1"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                  	android:layout_marginLeft="10dp"
+                    android:text="@string/trainee_position2"
+                    android:textColor="@color/title_text"
+                    android:textSize="@dimen/about_h2"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"                 
+                    android:paddingTop="@dimen/about_txt_paddingtop"
+                    android:text="@string/trainee_video_desc2"
+                    android:textColor="@color/title_text"
+                    android:textSize="@dimen/about_app_txt_size"
+                    android:layout_marginLeft="10dp" />
+            </LinearLayout>
+        </TableRow>
+    </TableLayout>
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="5dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/background_keydate_txt" />
+
+</LinearLayout>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/global_background_color"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:background="@drawable/background_pink"        
+        android:gravity="center"
+        android:text="@string/title_intern_exp"
+        android:textColor="@color/text_headline"
+        android:textSize="@dimen/about_h1"
+        android:textStyle="bold" />
+
+    
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+               
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                  
+                    android:gravity="center_vertical" >
+
+                    <Button
+                        android:id="@+id/btn_intern_exp_video"
+                        android:layout_width="150dp"
+                        android:layout_height="156dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:background="@drawable/video_summer_intersip"
+                        android:paddingLeft="@dimen/about_txt_paddingleft"
+                        android:paddingRight="@dimen/trainee_video_paddingright"
+                        android:paddingTop="@dimen/trainee_video_paddingtop"
+                        android:visibility="visible" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:layout_gravity="left"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight="1"
+                    android:gravity="left"
+                    android:orientation="vertical" >
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="@dimen/about_txt_paddingtop"
+                        android:text="@string/intern_name1"
+                        android:textColor="@color/title_text"
+                        android:textSize="@dimen/about_h2"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/intern_position1"
+                        android:textColor="@color/title_text"
+                        android:textSize="@dimen/about_h2"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="@dimen/about_txt_paddingleft"
+                        android:paddingRight="@dimen/about_txt_paddingright"
+                        android:paddingTop="@dimen/about_txt_paddingtop"
+                        android:text="@string/intern_video_desc1"
+                        android:textColor="@color/title_text"
+                        android:textSize="@dimen/about_app_txt_size" />
+                </LinearLayout>
+            </TableRow>
+        </TableLayout>
+ 
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/background_keydate_txt" />
+
+</LinearLayout>

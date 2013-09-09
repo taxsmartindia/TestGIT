@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/global_background_color"
+        android:orientation="vertical"
+        android:paddingBottom="20dp" >
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/about_img_heigh"
+            android:background="@drawable/imgaboutus" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="35dp"
+            android:background="@drawable/background_pink"
+            android:paddingBottom="@dimen/about_h1_paddingbottom"
+            android:paddingLeft="@dimen/about_h1_paddingleft"
+            android:paddingRight="@dimen/about_h1_paddingright"
+            android:paddingTop="@dimen/about_h1_paddingtop"
+            android:text="@string/aboutus_headline"
+            android:textColor="@color/text_headline"
+            android:textSize="@dimen/about_h1"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:orientation="horizontal" >
+
+            <TableLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"                   
+                    android:gravity="top"
+                    android:paddingTop="20dp">
+
+                    <Button
+                        android:id="@+id/btn_aboutus_video"
+                        android:layout_width="150dp"
+                        android:layout_height="115dp"
+                        android:background="@drawable/about_us_video"
+                        android:paddingLeft="@dimen/about_txt_paddingleft"
+                        android:layout_marginLeft="6dp"
+                        android:layout_marginBottom="10dp"
+                        android:visibility="visible" 
+                        />
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right"
+                        android:gravity="right"
+                        android:orientation="vertical" 
+                        android:layout_marginLeft="5dp"
+                        android:layout_weight="1">
+
+                        <TextView
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"                    
+                            
+                            android:text="@string/aboutus_name"
+                            android:textColor="@color/title_text"
+                            android:textSize="@dimen/about_h1"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"                            
+                            android:paddingTop="@dimen/about_txt_paddingtop"
+                            android:text="@string/aboutus_position"
+                            android:textColor="@color/title_text"
+                            android:textSize="@dimen/about_h2"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingBottom="@dimen/about_app_img_bottom"
+                            android:paddingTop="@dimen/about_txt_paddingtop"
+                            android:text="@string/aboutus_headline"
+                            android:textColor="@color/title_text"
+                            android:textSize="@dimen/about_app_txt_size" />
+                    </LinearLayout>
+                </TableRow>
+            </TableLayout>
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="5dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/background_keydate_txt" />
+
+        <Button
+            android:id="@+id/btn_aboutus_inbrief"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/background_keydate_txt"
+            android:paddingBottom="15dp"
+            android:paddingTop="15dp"
+            android:text="@string/title_inbrief"
+            android:textColor="@color/white"
+            android:textSize="@dimen/about_h2"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_aboutus_culturevalues"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/background_keydate_txt"
+            android:paddingBottom="15dp"
+            android:paddingTop="15dp"
+            android:text="@string/title_culture_values"
+            android:textColor="@color/white"
+            android:textSize="@dimen/about_h2"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</ScrollView>

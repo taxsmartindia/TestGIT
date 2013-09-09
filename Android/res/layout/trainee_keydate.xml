@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/global_background_color"
+    android:orientation="vertical" >
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="35dp"
+        android:background="@drawable/background_pink"
+        android:paddingBottom="@dimen/about_h1_paddingbottom"
+        android:paddingLeft="@dimen/about_h1_paddingleft"
+        android:paddingRight="@dimen/about_h1_paddingright"
+        android:paddingTop="@dimen/about_h1_paddingtop"
+        android:text="@string/trainee_date"
+        android:textColor="@color/text_headline"
+        android:textSize="@dimen/about_h1"
+        android:textStyle="bold" />
+    <ListView 
+        android:id="@+id/lstTraineeKeydate"
+        android:background="@color/white"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:cacheColorHint="@android:color/transparent"
+        ></ListView>
+
+</LinearLayout>

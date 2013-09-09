@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fadingEdge="none" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/global_background_color"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/about_img_heigh"
+            android:background="@drawable/imgtrainee_about" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="35dp"
+            android:background="@drawable/background_pink"
+            android:paddingBottom="@dimen/about_h1_paddingbottom"
+            android:paddingLeft="@dimen/about_h1_paddingleft"
+            android:paddingRight="@dimen/about_h1_paddingright"
+            android:paddingTop="@dimen/about_h1_paddingtop"
+            android:text="@string/title_trainee_programme"
+            android:textColor="@color/text_headline"
+            android:textSize="@dimen/about_h1"
+            android:textStyle="bold" />
+        <Button
+            android:id="@+id/btn_trainee_programme"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="30dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/background_keydate_txt"
+            android:paddingBottom="15dp"
+            android:paddingTop="15dp"
+            android:text="@string/title_trainee_programme"
+            android:textColor="@color/white"
+            android:textSize="@dimen/about_h2"
+            android:textStyle="bold" />
+        <Button
+            android:id="@+id/btn_trainee_lookfor"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/background_keydate_txt"
+            android:paddingBottom="15dp"
+            android:paddingTop="15dp"
+            android:text="@string/title_trainee_lookfor"
+            android:textColor="@color/white"
+            android:textSize="@dimen/about_h2"
+            android:textStyle="bold" />
+        <Button
+            android:id="@+id/btn_trainee_package"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/background_keydate_txt"
+            android:paddingBottom="15dp"
+            android:paddingTop="15dp"
+            android:text="@string/title_trainee_package"
+            android:textColor="@color/white"
+            android:textSize="@dimen/about_h2"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</ScrollView>

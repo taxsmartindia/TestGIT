@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/customTitle"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="@dimen/custom_btn_with"
+        android:layout_height="@dimen/custom_btn_heigh"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/custom_btn_padding"
+        android:background="@drawable/btn_back"
+        android:textColor="@color/white"
+        android:textSize="@dimen/custom_btn_size" />
+
+    <TextView
+        android:id="@+id/txtTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:ellipsize="marquee"
+        android:singleLine="true"
+        android:textColor="@color/white"
+        android:textSize="@dimen/custom_txt_size"
+        android:textStyle="bold" />
+
+
+   <Button 
+        android:id="@+id/btnHome"
+        android:layout_width="@dimen/custom_btn_with"
+        android:layout_height="@dimen/custom_btn_heigh"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="@dimen/custom_btn_padding"
+        android:background="@drawable/btn_home"
+        android:text=""
+        android:textColor="@color/white"
+        android:textSize="@dimen/custom_btn_size" />
+
+</RelativeLayout>

@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   <!-- Home -->
+    <dimen name ="home_btn_size">140dp</dimen>
+      
+    <dimen name ="home_btn_about_paddingleft">30dp</dimen>
+    <dimen name ="home_btn_about_paddingrigh">0dp</dimen>
+    <dimen name ="home_btn_about_paddingbotom">300dp</dimen>
+    <dimen name ="home_btn_about_paddingtop">0dp</dimen>
+    
+    <dimen name ="home_btn_trainee_paddingleft">0dp</dimen>
+    <dimen name ="home_btn_trainee_paddingrigh">0dp</dimen>
+    <dimen name ="home_btn_trainee_paddingbotom">270dp</dimen>
+    <dimen name ="home_btn_trainee_paddingtop">0dp</dimen>
+    
+    <dimen name ="home_btn_interns_paddingleft">0dp</dimen>
+    <dimen name ="home_btn_interns_paddingrigh">30dp</dimen>
+    <dimen name ="home_btn_interns_paddingbotom">300dp</dimen>
+    <dimen name ="home_btn_interns_paddingtop">0dp</dimen>
+    
+    <dimen name ="home_btn_apply_paddingleft">30dp</dimen>
+    <dimen name ="home_btn_apply_paddingrigh">0dp</dimen>
+    <dimen name ="home_btn_apply_paddingbotom">130dp</dimen>
+    <dimen name ="home_btn_apply_paddingtop">0dp</dimen>
+    
+    <dimen name ="home_btn_contact_paddingleft">0dp</dimen>
+    <dimen name ="home_btn_contact_paddingrigh">0dp</dimen>
+    <dimen name ="home_btn_contact_paddingbotom">100dp</dimen>
+    <dimen name ="home_btn_contact_paddingtop">0dp</dimen>
+    
+    <dimen name ="home_btn_belfast_paddingleft">0dp</dimen>
+    <dimen name ="home_btn_belfast_paddingrigh">30dp</dimen>
+    <dimen name ="home_btn_belfast_paddingbotom">130dp</dimen>
+    <dimen name ="home_btn_belfast_paddingtop">0dp</dimen>
+    
+    <!-- WelCome -->
+    <dimen name="welcome_img_heigh">220dp</dimen>
+    <dimen name="welcome_txt_size">22dp</dimen>
+    <dimen name="welcome_txt_paddingtop">20dp</dimen>
+    <dimen name="welcome_txt_paddingright">5dp</dimen>
+    <dimen name="welcome_txt_paddingleft">5dp</dimen>
+    
+    <!-- About -->
+    <dimen name="about_img_heigh">220dp</dimen>
+    <dimen name="about_txt_size">22dp</dimen>
+    <dimen name="about_txt_paddingtop">20dp</dimen>
+    <dimen name="about_txt_paddingright">5dp</dimen>
+    <dimen name="about_txt_paddingleft">5dp</dimen>
+    
+    <!-- Trainee -->
+         <!-- Trainee About -->
+		    <dimen name="trainee_about_img_heigh">220dp</dimen>
+		    <dimen name="trainee_about_txt_size">22dp</dimen>
+		    <dimen name="trainee_about_txt_paddingtop">20dp</dimen>
+		    <dimen name="trainee_about_txt_paddingright">10dp</dimen>
+		    <dimen name="trainee_about_txt_paddingleft">10dp</dimen>
+		 <!--  Trainee Life -->
+            <dimen name="trainee_life_child_img_heigh">200dp</dimen>
+            <dimen name="trainee_life_child_txt_heigh">35dp</dimen>
+            <dimen name="trainee_life_child_txt_size">25dp</dimen>
+        <!--  Trainee Key date -->
+	        <dimen name="trainee_keydate_child_layout_heigh">0dp</dimen>
+	        <dimen name="trainee_keydate_child_txt_date_heigh">35dp</dimen>
+	        <dimen name="trainee_keydate_child_txt_date_size">30dp</dimen>
+	        <dimen name="trainee_keydate_child_txt_date_padding_left">20dp</dimen>
+	        <dimen name="trainee_keydate_child_txt_content_heigh">170dp</dimen>
+	        <dimen name="trainee_keydate_child_txt_content_padding_top">0dp</dimen>
+	        <dimen name="trainee_keydate_child_txt_content_padding_left">20dp</dimen>
+	        <dimen name="trainee_keydate_child_txt_content_size">32dp</dimen>
+	        <dimen name="trainee_keydate_child_img_heigh">205dp</dimen>
+        
+        <!--  Trainee Twitter -->
+             <dimen name="trainee_twitter_child_img_heigh">190dp</dimen>
+             <dimen name="trainee_twitter_child_layout_heigh">0dp</dimen>
+             <dimen name="trainee_twitter_child_txtcontent_heigh">150dp</dimen>
+             <dimen name="trainee_twitter_child_txtcontent_size">20dp</dimen>
+             <dimen name="trainee_twitter_child_txtcontent_left">15dp</dimen>
+             <dimen name="trainee_twitter_child_txtcontent_right">15dp</dimen>
+             <dimen name="trainee_twitter_child_txt_al_heigh">30dp</dimen>
+             <dimen name="trainee_twitter_child_txt_al_size">23dp</dimen>
+             <dimen name="trainee_twitter_child_txt_al_left">15dp</dimen>
+             <dimen name="trainee_twitter_child_txt_al_botom">5dp</dimen>
+                      
+        <!--  Trainee Faq -->
+             <dimen name="trainee_faq_img_heigh">220dp</dimen>
+			 <dimen name="trainee_faq_txt_size">22dp</dimen>
+			 <dimen name="trainee_faq_txt_paddingtop">20dp</dimen>
+			 <dimen name="trainee_faq_paddingright">10dp</dimen>
+			 <dimen name="trainee_faq_paddingleft">10dp</dimen>
+			 
+	 
+	  <!-- Sip -->
+	    <!-- sip About -->
+		    <dimen name="sip_about_img_heigh">220dp</dimen>
+		    <dimen name="sip_about_txt_size">22dp</dimen>
+		    <dimen name="sip_about_txt_paddingtop">20dp</dimen>
+		    <dimen name="sip_about_txt_paddingright">10dp</dimen>
+		    <dimen name="sip_about_txt_paddingleft">10dp</dimen>
+		 <!--  sip Life -->
+            <dimen name="sip_life_child_img_heigh">200dp</dimen>
+            <dimen name="sip_life_child_txt_heigh">35dp</dimen>
+            <dimen name="sip_life_child_txt_size">25dp</dimen>
+        <!--  sip Key date -->
+	        <dimen name="sip_keydate_child_layout_heigh">0dp</dimen>
+	        <dimen name="sip_keydate_child_txt_date_heigh">35dp</dimen>
+	        <dimen name="sip_keydate_child_txt_date_size">30dp</dimen>
+	        <dimen name="sip_keydate_child_txt_date_padding_left">20dp</dimen>
+	        <dimen name="sip_keydate_child_txt_content_heigh">170dp</dimen>
+	        <dimen name="sip_keydate_child_txt_content_padding_top">0dp</dimen>
+	        <dimen name="sip_keydate_child_txt_content_padding_left">20dp</dimen>
+	        <dimen name="sip_keydate_child_txt_content_size">32dp</dimen>
+	        <dimen name="sip_keydate_child_img_heigh">205dp</dimen>
+        
+        <!--  Trainee Twitter -->
+             <dimen name="sip_twitter_child_img_heigh">190dp</dimen>
+             <dimen name="sip_twitter_child_layout_heigh">0dp</dimen>
+             <dimen name="sip_twitter_child_txtcontent_heigh">150dp</dimen>
+             <dimen name="sip_twitter_child_txtcontent_size">20dp</dimen>
+             <dimen name="sip_twitter_child_txtcontent_left">15dp</dimen>
+             <dimen name="sip_twitter_child_txtcontent_right">15dp</dimen>
+             <dimen name="sip_twitter_child_txt_al_heigh">30dp</dimen>
+             <dimen name="sip_twitter_child_txt_al_size">23dp</dimen>
+             <dimen name="sip_twitter_child_txt_al_left">15dp</dimen>
+             <dimen name="sip_twitter_child_txt_al_botom">5dp</dimen>
+                      
+        <!--  Trainee Faq -->
+             <dimen name="sip_faq_img_heigh">220dp</dimen>
+			 <dimen name="sip_faq_txt_size">22dp</dimen>
+			 <dimen name="sip_faq_txt_paddingtop">20dp</dimen>
+			 <dimen name="sip_faq_paddingright">10dp</dimen>
+			 <dimen name="sip_faq_paddingleft">10dp</dimen>
+	  <!-- Download -->
+	   <dimen name="download_txt_1_size">33dp</dimen>
+	  <dimen name="download_txt_1_top">75dp</dimen>   
+	   
+	  <dimen name="download_txt_2_size">33dp</dimen>
+	  <dimen name="download_txt_2_top">15dp</dimen>   
+	   
+	  <dimen name="download_txt_3_size">33dp</dimen>
+	  <dimen name="download_txt_3_top">50dp</dimen>   
+	   
+	  <dimen name="download_edt_width">350dp</dimen>
+	  <dimen name="download_edt_heigh">0dp</dimen>  
+	  <dimen name="download_edt_top">15dp</dimen>
+	  
+	  <dimen name="download_btn_width">350dp</dimen>
+	  <dimen name="download_btn_heigh">78dp</dimen>  
+	  <dimen name="download_btn_top">20dp</dimen>
+	  <!--  Custom title -->
+	   <dimen name="custom_heigh">75dp</dimen>
+	   <dimen name="custom_txt_size">30dp</dimen>
+	   <dimen name="custom_btn_with">95dp</dimen>
+	   <dimen name="custom_btn_heigh">55dp</dimen>
+	   <dimen name="custom_btn_size">18dp</dimen>
+	   <dimen name="custom_btn_padding">15dp</dimen>
+	   <dimen name="custom_btn_trainee_size">17dp</dimen>
+			 		    
+    <!-- Contact -->
+       <dimen name="contact_img_heigh">300dp</dimen>
+       <dimen name="contact_ll_heigh">300dp</dimen>
+       <dimen name="contact_txtname_size">30dp</dimen>
+       <dimen name="contact_txtposition_size">26dp</dimen>
+       <dimen name="btn_width">90dp</dimen>
+       <dimen name="btn_heigh">90dp</dimen>
+       <dimen name="contact_padding">30dp</dimen>
+       <!--  Tabhost -->
+        <dimen name="corner_radius">8dp</dimen> 
+	    <dimen name="tab_space_top">4dp</dimen>
+	    <dimen name="tab_space">0dp</dimen>
+	    <dimen name="tab_space_plus1">3dp</dimen>
+	    <dimen name="tab_space_bottom_line">36sp</dimen>
+	    <dimen name="tab_space_unselected_top">6sp</dimen> 
+	    <dimen name="tab_heigh">70dp</dimen>
+	    <dimen name="frame_heigh">70dp</dimen>
+	    
+	    
+	    <!-- bonus -->
+	    <dimen name = "trainee_keydate_view_txt1_size">40dp</dimen>
+	    <dimen name = "trainee_keydate_view_txt1_left">0dp</dimen>
+	    <dimen name = "trainee_keydate_view_txt1_right">0dp</dimen>
+	    <dimen name = "trainee_keydate_view_txt1_top">350dp</dimen>
+	    <dimen name = "trainee_keydate_view_txt1_botom">0dp</dimen>
+        <dimen name = "trainee_keydate_view_txt2_size">25dp</dimen>
+        <dimen name = "trainee_keydate_view_txt2_left">50dp</dimen>
+        <dimen name = "trainee_keydate_view_txt2_right">0dp</dimen>
+        <dimen name = "trainee_keydate_view_txt2_top">60dp</dimen>
+        <dimen name = "trainee_keydate_view_txt2_botom">0dp</dimen>
+        
+        <dimen name = "sip_keydate_view_txt1_size">25dp</dimen>
+        <dimen name = "sip_keydate_view_txt1_left">0dp</dimen>
+	    <dimen name = "sip_keydate_view_txt1_right">0dp</dimen>
+	    <dimen name = "sip_keydate_view_txt1_top">0dp</dimen>
+	    <dimen name = "sip_keydate_view_txt1_botom">0dp</dimen>
+        <dimen name = "sip_keydate_view_txt2_size">18dp</dimen>  
+        <dimen name = "sip_keydate_view_txt2_left">0dp</dimen>
+        <dimen name = "sip_keydate_view_txt2_right">0dp</dimen>
+        <dimen name = "sip_keydate_view_txt2_top">0dp</dimen>
+        <dimen name = "sip_keydate_view_txt2_botom">0dp</dimen>	    
+        
+        <!-- About_app -->
+        <dimen name="about_app_img_width" >100dp</dimen>
+        <dimen name="about_app_img_height" >100dp</dimen>
+        <dimen name="about_app_img_top">30dp</dimen>
+        <dimen name="about_app_img_bottom">30dp</dimen>
+        <dimen name="about_app_txt_size">25dp</dimen>
+</resources>

@@ -1,0 +1,36 @@
+body {
+	font-size: 19px;
+	font-weight: normal;
+	padding:5px;
+}
+
+p {
+	font-style: normal;
+}
+
+div {
+	width: 100%;
+}
+
+li.show_hide{
+	margin-left: -20px;
+	width: 100%;
+	padding: 10px;
+	border-bottom:1px solid #c3c3c3;
+}
+
+ul {
+	list-style-type: normal;
+}
+
+
+.slidingDiv {
+    background-color: #;
+    padding:5px;
+    margin-top:2px;
+}
+ 
+.show_hide {
+    display:none;
+}
+
